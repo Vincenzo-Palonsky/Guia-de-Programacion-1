@@ -11,9 +11,31 @@ using UnityEngine;
 
 public class Ejercicio_7 : MonoBehaviour
 {
+    public int num1 = 0;
+    public int num2 = 0;
+    public int num3 = 0;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (num1 == num2 && num1 == num3)
+        {
+            Debug.Log("Los números son iguales");
+        }
+
+        if (num1 > num2 && num1 > num3)
+        {
+            Debug.Log("El mayor número es " + num1);
+        }
+
+        if (num2 > num1 && num2 > num3)
+        {
+            Debug.Log("El mayor número es " + num2);
+        }
+
+        if (num3 > num1 && num3 > num2)
+        {
+            Debug.Log("El mayor número es " + num3);
+        }
     }
 }
