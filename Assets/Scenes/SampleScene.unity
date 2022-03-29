@@ -190,6 +190,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 344337202}
+  - component: {fileID: 344337203}
   m_Layer: 0
   m_Name: Ejercicio_10
   m_TagString: Untagged
@@ -211,6 +212,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &344337203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344337201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a69c90c59934b8642bedafb6a0bdb241, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hora: 0
 --- !u!1 &476961158
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,6 +641,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1456931707}
+  - component: {fileID: 1456931708}
   m_Layer: 0
   m_Name: Ejercicio_11
   m_TagString: Untagged
@@ -648,6 +663,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1456931708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456931706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2572cdf0a23e8a34ab1c86c52e9587dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FechaCompra: 20050723
+  NombreComprador: Carlos
+  NombreProducto: Hojas gloria
+  CantidadProducto: 2
+  PrecioProducto: 60
 --- !u!1 &1482544733
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,7 +772,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1629977413
 Transform:
   m_ObjectHideFlags: 0
@@ -767,6 +799,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb061e7a715ce0745840a08c92a72375, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Persona1: 35
+  Persona2: 177
+  Persona3: 64
 --- !u!1 &1714687052
 GameObject:
   m_ObjectHideFlags: 0
@@ -776,13 +811,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1714687053}
+  - component: {fileID: 1714687054}
   m_Layer: 0
   m_Name: Ejercicio_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1714687053
 Transform:
   m_ObjectHideFlags: 0
@@ -797,6 +833,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1714687054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714687052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b16142beaf04c459e41139694a3c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1717872220
 GameObject:
   m_ObjectHideFlags: 0

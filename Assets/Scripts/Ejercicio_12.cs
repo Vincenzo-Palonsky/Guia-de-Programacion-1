@@ -12,9 +12,31 @@ using UnityEngine;
 
 public class Ejercicio_12 : MonoBehaviour
 {
+    public int Dado1;
+    public int Dado3;
+    public int Dado2;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (Dado1 == 6 && Dado2 == 6 && Dado3 == 6)
+        {
+            Debug.Log("Excelente");
+        }
+
+        else if (Dado1 == 6 && Dado2 == 6 || Dado1 == 6 && Dado3 == 6 || Dado2 == 6 && Dado3 == 6)
+        {
+            Debug.Log("Muy bien");
+        }
+
+        else if (Dado1 == 6 || Dado2 == 6 || Dado3 == 6)
+        {
+            Debug.Log("Regular");
+        }
+
+        else
+        {
+            Debug.Log("Insuficiente");
+        }
     }
 }
