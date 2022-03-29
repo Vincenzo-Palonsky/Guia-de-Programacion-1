@@ -25,6 +25,6 @@ public class Ejercicio_11 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Fecha de Compra: " + FechaCompra + "\n");
+        Debug.Log("Fecha de Compra: " + FechaCompra + "\n" + "Nombre del Comprador: " + NombreComprador + "\n" + "Producto solicitado: " + NombreProducto + "\n" + "Cantidad solicitada: " + CantidadProducto + "\n" + "Precio Unitario: $" + PrecioProducto + "\n" + "Total a Pagar: $" + (CantidadProducto * PrecioProducto));
     }
 }
