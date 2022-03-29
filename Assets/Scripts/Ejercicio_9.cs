@@ -19,13 +19,15 @@ public class Ejercicio_9 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int total = Persona1 + Persona2 + Persona3;
-        int porciento1 = (Persona1 * 100) / total;
-    }
+        int Total = Persona1 + Persona2 + Persona3;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        int Porcentaje1 = (Persona1 * 100) / Total;
+        int Porcentaje2 = (Persona2 * 100) / Total;
+        int Porcentaje3 = (Persona3 * 100) / Total;
+
+        Debug.Log("Persona1: capital aportado: $" + Persona1 + ", Porcentaje del capital: %" + Porcentaje1 + ", Monto total aportado: $" + Total);
+        Debug.Log("Persona2: capital aportado: $" + Persona2 + ", Porcentaje del capital: %" + Porcentaje2 + ", Monto total aportado: $" + Total);
+        Debug.Log("Persona3: capital aportado: $" + Persona3 + ", Porcentaje del capital: %" + Porcentaje3 + ", Monto total aportado: $" + Total);
+
     }
 }
