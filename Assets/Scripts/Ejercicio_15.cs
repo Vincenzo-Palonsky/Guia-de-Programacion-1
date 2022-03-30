@@ -26,11 +26,29 @@ public class Ejercicio_15 : MonoBehaviour
         if (Numero < 10 && Numero > -10)
         {
             estaEnA = true;
+
+            if (Numero % 2 != 0)
+            {
+                estaEnAmbos = true;
+                Debug.Log("El número está en ambos");
+            }
+
+            else
+            {
+                Debug.Log("El número está en A");
+            }
         }
 
-        if (Numero % 2 != 0)
+        else if (Numero % 2 != 0)
         {
             estaEnB = true;
+            Debug.Log("El número está en B");
+        }
+
+        else
+        {
+            noEstaEnNinguno = true;
+            Debug.Log("El número no está en ninguno");
         }
     }
 }
