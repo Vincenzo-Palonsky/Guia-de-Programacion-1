@@ -33,20 +33,12 @@ public class Ejercicio_10 : MonoBehaviour
         else if (Hora >= HORA_APERTURA && Hora <= HORA_CIERRE)
         {
             estaAbierto = true;
-        }
-
-        else
-        {
-            estaAbierto = false;
-        }
-
-        if (estaAbierto == true)
-        {
             Debug.Log("El estacionamiento se encuentra abierto");
         }
 
         else
         {
+            estaAbierto = false;
             Debug.Log("El estacionamiento se encuentra cerrado");
         }
     }
