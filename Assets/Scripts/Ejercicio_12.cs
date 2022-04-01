@@ -19,24 +19,60 @@ public class Ejercicio_12 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (Dado1 == 6 && Dado2 == 6 && Dado3 == 6)
+        int NumDados = 0;
+
+        if (Dado1 == 6)
         {
-            Debug.Log("Excelente");
+            NumDados++;
         }
 
-        else if (Dado1 == 6 && Dado2 == 6 || Dado1 == 6 && Dado3 == 6 || Dado2 == 6 && Dado3 == 6)
+        if (Dado2 == 6)
         {
-            Debug.Log("Muy bien");
+            NumDados++;
         }
 
-        else if (Dado1 == 6 || Dado2 == 6 || Dado3 == 6)
+        if (Dado3 == 6)
         {
-            Debug.Log("Regular");
+            NumDados++;
         }
 
-        else
+        switch (NumDados)
         {
-            Debug.Log("Insuficiente");
+            case 1:
+                Debug.Log("Regular");
+                break;
+
+            case 2:
+                Debug.Log("Muy bien");
+                break;
+
+            case 3:
+                Debug.Log("Excelente");
+                break;
+
+            default:
+                Debug.Log("Insuficiente");
+                break;
         }
+
+        //if (Dado1 == 6 && Dado2 == 6 && Dado3 == 6)
+        //{
+        //    Debug.Log("Excelente");
+        //}
+
+        //else if (Dado1 == 6 && Dado2 == 6 || Dado1 == 6 && Dado3 == 6 || Dado2 == 6 && Dado3 == 6)
+        //{
+        //    Debug.Log("Muy bien");
+        //}
+
+        //else if (Dado1 == 6 || Dado2 == 6 || Dado3 == 6)
+        //{
+        //    Debug.Log("Regular");
+        //}
+
+        //else
+        //{
+        //    Debug.Log("Insuficiente");
+        //}
     }
 }
