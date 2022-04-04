@@ -30,25 +30,25 @@ public class Ejercicio_15 : MonoBehaviour
             if (Numero % 2 != 0)
             {
                 estaEnAmbos = true;
-                Debug.Log("El número está en ambos");
+                Debug.Log("Está en ambos: " + estaEnAmbos);
             }
 
             else
             {
-                Debug.Log("El número está en A");
+                Debug.Log("Está en A: " + estaEnA);
             }
         }
 
         else if (Numero % 2 != 0)
         {
             estaEnB = true;
-            Debug.Log("El número está en B");
+            Debug.Log("Está en B: " + estaEnB);
         }
 
         else
         {
             noEstaEnNinguno = true;
-            Debug.Log("El número no está en ninguno");
+            Debug.Log("No está en ninguno: " + noEstaEnNinguno);
         }
     }
 }
